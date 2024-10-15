@@ -28,7 +28,6 @@ class CategoryResource extends Resource
                 //card
                 Forms\Components\Card::make()
                     ->schema([
-
                         //name
                         Forms\Components\TextInput::make('name')
                             ->label('Category Name')
